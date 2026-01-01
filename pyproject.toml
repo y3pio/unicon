@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unicon"
+version = "1.0.0"
+description = "Unified Contributions CLI Tool - Fetch and import GitHub contributions"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "PyGithub>=2.1.1",
+    "python-dotenv>=1.0.0",
+    "questionary>=2.0.1",
+]
+
+[project.scripts]
+unicon = "cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+exclude = ["tests*", "*.tests*"]
+
