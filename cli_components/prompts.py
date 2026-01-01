@@ -1,7 +1,7 @@
 """Interactive prompts for user input"""
 import questionary
-from ..utils.date_utils import validate_date
-from ..utils.validation_utils import validate_affiliation
+from utils.date_utils import validate_date
+from utils.validation_utils import validate_affiliation
 
 
 def prompt_user():

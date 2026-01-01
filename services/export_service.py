@@ -1,8 +1,8 @@
 """Service for exporting contributions to CSV"""
 import os
 from pathlib import Path
-from ..utils.csv_utils import array_to_csv
-from ..config.constants import (
+from utils.csv_utils import array_to_csv
+from config.constants import (
     COMMIT_CSV_HEADERS,
     PULL_REQUEST_CSV_HEADERS,
     CODE_REVIEW_CSV_HEADERS,

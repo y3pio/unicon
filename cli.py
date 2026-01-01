@@ -2,17 +2,17 @@
 import sys
 import time
 import questionary
-from .api.github_client import create_github_client, get_github_username
-from .utils.validation_utils import validate_environment
+from api.github_client import create_github_client, get_github_username
+from utils.validation_utils import validate_environment
 from cli_components.banner import display_banner
 from cli_components.prompts import prompt_user
 from cli_components.args import parse_args
 from cli_components.import_prompts import prompt_import_options
 from cli_components.import_args import parse_import_args
-from .services.fetch_service import process_repositories
-from .services.export_service import export_to_csv
-from .services.import_service import import_contributions
-from .services.git_commit_service import commit_contributions
+from services.fetch_service import process_repositories
+from services.export_service import export_to_csv
+from services.import_service import import_contributions
+from services.git_commit_service import commit_contributions
 
 
 def display_fetch_config(username, since_date, affiliation, fetch_commits, fetch_pull_requests, fetch_code_reviews):

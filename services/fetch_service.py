@@ -1,9 +1,9 @@
 """Service for fetching contributions from GitHub"""
 import time
-from ..api.repositories import fetch_user_repos
-from ..api.commits import fetch_commits
-from ..api.pull_requests import search_user_pull_requests
-from ..api.code_reviews import search_user_code_reviews
+from api.repositories import fetch_user_repos
+from api.commits import fetch_commits
+from api.pull_requests import search_user_pull_requests
+from api.code_reviews import search_user_code_reviews
 
 
 def process_repositories(

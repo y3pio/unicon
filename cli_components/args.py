@@ -1,8 +1,8 @@
 """Command line argument parsing"""
 import sys
-from ..utils.date_utils import validate_date
-from ..utils.validation_utils import validate_affiliation
-from ..config.constants import DEFAULT_AFFILIATION
+from utils.date_utils import validate_date
+from utils.validation_utils import validate_affiliation
+from config.constants import DEFAULT_AFFILIATION
 
 
 def parse_args():
