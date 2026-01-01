@@ -1,3 +1,12 @@
+```
+██╗   ██╗███╗   ██╗██╗ ██████╗ ██████╗ ███╗   ██╗
+██║   ██║████╗  ██║██║██╔═══██╗██╔══██╗████╗  ██║
+██║   ██║██╔██╗ ██║██║██║   ██║██║  ██║██╔██╗ ██║
+██║   ██║██║╚██╗██║██║██║   ██║██║  ██║██║╚██╗██║
+╚██████╔╝██║ ╚████║██║╚██████╔╝██████╔╝██║ ╚████║
+ ╚═════╝ ╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
+```
+
 # Unified Contributions (Unicon)
 
 A Python CLI tool for fetching and importing GitHub contributions to maintain a unified contribution history across multiple accounts and platforms.
